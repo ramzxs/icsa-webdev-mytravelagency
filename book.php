@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyTravelAgency | Book Now</title>
 </head>
+
 <body>
     <header>
         <strong>MyTravelAgency</strong>
@@ -13,21 +15,24 @@
 
     <main>
         <h1>BOOKING</h1>
-        
+
         <form action="?">
             <section>
-                <h2>CLIENT</h2>
+                <br>
+                <br>
+                <br>
+                <h2>CLIENT & Travel Class</h2>
                 <div>
                     <label for="">Name:</label>
-                        <input type="text" size="50">
+                    <input type="text" size="50">
                 </div>
                 <div>
                     <label for="">Mobile Number:</label>
-                        <input type="text" size="12">
+                    <input type="text" size="12">
                 </div>
                 <div>
                     <label for="">Email Address:</label>
-                        <input type="email" size="50">
+                    <input type="email" size="50">
                 </div>
                 <div>
                     <label for="">Adults:</label>
@@ -37,14 +42,23 @@
                     <label for="">Children:</label>
                     <input type="number" name="" id="">
                 </div>
+                <div>
+                    <label for="">Infant:</label>
+                    <input type="number" name="" id="">
+                </div>
             </section>
 
             <section>
                 <h2>FLIGHT</h2>
 
                 <div>
+                    <label for="">Type:</label>
+                    <label><input type="radio" name="" id=""> One way</label>
+                    <label><input type="radio" name="" id=""> Round trip</label>
+                </div>
+                <div>
                     <label for="">Date of Departure:</label>
-                        <input type="date">
+                    <input type="date">
                 </div>
                 <div>
                     <label for="">Destination:</label>
@@ -62,6 +76,15 @@
                         <option value="">AirAsia</option>
                         <option value="">Cebu Pacific</option>
                         <option value="">Philippine Airlines</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Travel class:</label>
+                    <select name="" id="">
+                        <option value="">(Economy)</option>
+                        <option value="">Business</option>
+                        <option value="">Premium Economy</option>
+                        <option value="">First Class</option>
                     </select>
                 </div>
             </section>
@@ -93,10 +116,15 @@
             </section>
         </form>
     </main>
-
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
     <footer>
         <hr>
         &copy; 2023 MyTravelAgency, Inc.
     </footer>
 </body>
+
 </html>
