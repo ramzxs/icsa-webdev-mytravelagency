@@ -23,7 +23,7 @@
                 <br>
                 <h2>CLIENT & Travel Class</h2>
                 <div>
-                    <label for="">Name:</label>
+                    <table> for="">Name:</table>
                     <input type="text" size="50">
                 </div>
                 <div>
@@ -53,8 +53,8 @@
 
                 <div>
                     <label for="">Type:</label>
-                    <label><input type="radio" name="" id=""> One way</label>
-                    <label><input type="radio" name="" id=""> Round trip</label>
+                    <label><input type="radio" name="flighttype" id=""> One way</label>
+                    <label><input type="radio" name="flighttype" id=""> Round trip</label>
                 </div>
                 <div>
                     <label for="">Date of Departure:</label>
